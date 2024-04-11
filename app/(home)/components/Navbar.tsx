@@ -25,7 +25,7 @@ const Navbar = ({ className }: { className?: string }) => {
                     {socials.map((social, index) => {
                          const Icon = social.Icon
                          return (
-                              <Link href={social.link} key={index} aria-label={social.label}>
+                              <Link href={social.link} key={index} aria-label={social.label} target="_blank">
                                    <Icon className='w-8 h-8 hover:scale-125 transition-all' />
                               </Link>
                          )
