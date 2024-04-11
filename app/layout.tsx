@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Portfolio",
     description:
-      "Cast your vote now and see live updates on the poll results, powered by the real-time capabilities of Supabase database integration in our web app.",
+      "Hey There, check out my portfolio website. It includes my skillset and the projects that I've worked on",
     url: "https://muhammed-zain-portfolio.vercel.app/",
     siteName: "portfolio",
     images: "/portfolio.png",
     type: "website",
   },
-  keywords: ["daily web coding", "chensokheng", "dailywebcoding"],
+  keywords: ["aceternity", "portfolio", "nextjs", "muhammed", "zain", "muhammed zain"],
 };
 
 export default function RootLayout({
