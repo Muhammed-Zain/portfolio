@@ -6,7 +6,7 @@ import { ThemeProvider } from "../components/theme-provider"
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000/"),
+  metadataBase: new URL("https://muhammed-zain-portfolio.vercel.app/"),
 
   title: 'Muhammed Zain Portfolio',
   authors: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Portfolio",
     description:
       "Cast your vote now and see live updates on the poll results, powered by the real-time capabilities of Supabase database integration in our web app.",
-    url: "http://localhost:3000/",
+    url: "https://muhammed-zain-portfolio.vercel.app/",
     siteName: "portfolio",
     images: "/portfolio.png",
     type: "website",
