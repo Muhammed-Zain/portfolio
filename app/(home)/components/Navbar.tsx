@@ -20,7 +20,7 @@ const Navbar = ({ className }: { className?: string }) => {
      ]
      return (
           <nav className={cn('pt-5 md:py-10  flex justify-between items-center pb-6 md:pb-20 lg:pb-0 animate-move-down', className)}>
-               <h1 className='text-xl md:text-2xl lg:text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2'>Muhammed Zain 👨🏼‍💻</h1>
+               <h1 className='text-xl md:text-3xl  font-bold underline underline-offset-8 decoration-[#914d76] hover:-rotate-6 transition-all duration-300 ease-in-out'>Muhammed Zain 👨🏼‍💻</h1>
                <div className='flex items-center gap-5'>
                     {socials.map((social, index) => {
                          const Icon = social.Icon

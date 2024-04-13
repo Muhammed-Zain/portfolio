@@ -13,14 +13,14 @@ const Projects = () => {
                tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb, SiStripe],
                link: "https://belindo.vercel.app/",
                cover: "/belindo-cover.png",
-               background: "bg-indigo-500"
+               background: "bg-[#914d76]"
           },
           {
                title: "Blog Application",
                tech: [SiReact, , SiTailwindcss, SiMongodb, SiNodedotjs, SiJsonwebtokens],
                link: "https://blog-application-fullstack.vercel.app/",
                cover: "/blog-cover.png",
-               background: "bg-green-500"
+               background: "bg-[#f3ffbd]"
           }
      ]
      return (
