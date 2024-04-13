@@ -46,7 +46,7 @@ const Skills = () => {
      ]
      return (
           <div className='max-w-5xl mx-auto px-8'>
-               <Title text="Skills 💯" className='flex flex-col items-center justify-center -rotate-6 text-4xl' />
+               <Title text="Skills 💯" className='flex flex-col items-center justify-center hover:-rotate-12 transition-all duration-500 ease-in-out text-4xl' />
                <HoverEffect items={skills} />
           </div>
      )

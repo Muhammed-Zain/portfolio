@@ -25,7 +25,7 @@ const Projects = () => {
      ]
      return (
           <div className='py-10 p-5 sm:p-0'>
-               <Title text='Projects 🏢' className='flex flex-col items-center justify-center rotate-6 text-4xl mt-20' />
+               <Title text='Projects 🏢' className='flex flex-col items-center justify-center hover:-rotate-12 transition-all duration-500 ease-in-out text-4xl mt-20' />
 
                <div className='grid  grid-cols-1 sm:grid-cols-2 pt-20 gap-5'>
                     {projects.map((project, index) => {

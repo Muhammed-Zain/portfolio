@@ -13,9 +13,20 @@ const HeroSection = () => {
                     <p className='md:w-96 text-lg text-gray-300'>
                          {"Based in Bangalore, I'm a Fullstack developer passionate about building modern web applications that clients love."}
                     </p>
-                    <Link href={"mailto:mohdzain2002@gmail.com"} target="_blank" className='inline-block group'>
-                         <Title text='Contact Me! 📫' className='text-3xl' />
-                    </Link>
+                    <div className='md:flex gap-5'>
+                         <Link href={"mailto:mohdzain2002@gmail.com"} target="_blank" className='inline-block group mb-12 md:mb-0'>
+                              <Title text='Contact Me! 📫' className='text-3xl' />
+                         </Link>
+                         <MovingBorderBtn
+                              borderRadius="0.5rem"
+                              className="p-3 font-semibold group-hover:bg-[#0f172a]/15 transition-all duration-500 ease-in-out group-hover:backdrop-blur-lg"
+                         >
+                              <Link href={"https://drive.google.com/file/d/1yEiN4QOuIaMVxNkhKO_7GksyzBghr8sh/view"} target="_blank">
+                                   ⬇️ Download Resume
+                              </Link>
+                         </MovingBorderBtn>
+                    </div>
+
                </div>
 
                <div className='relative'>
@@ -38,16 +49,7 @@ const HeroSection = () => {
                          </div>
                          <div className='glow absolute top-[40%] right-1/2 -z-10'></div>
                     </div>
-                    <div className='absolute bottom-5 sm:bottom-14 left-0 sm:-left-10 group'>
-                         <MovingBorderBtn
-                              borderRadius="0.5rem"
-                              className="p-3 font-semibold group-hover:bg-[#0f172a]/15 transition-all duration-500 ease-in-out group-hover:backdrop-blur-lg"
-                         >
-                              <Link href={"https://drive.google.com/file/d/1yEiN4QOuIaMVxNkhKO_7GksyzBghr8sh/view"} target="_blank">
-                                   ⬇️ Download Resume
-                              </Link>
-                         </MovingBorderBtn>
-                    </div>
+
                </div>
 
           </div>
