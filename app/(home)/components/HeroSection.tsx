@@ -5,10 +5,10 @@ import Title from './Title'
 
 const HeroSection = () => {
      return (
-          <div className='min-h-[60vh] gap-14 flex flex-col-reverse items-center justify-between lg:flex-row lg:gap-0 animate-move-up' >
+          <div className='min-h-[50vh] md:min-h-[60vh] gap-14 flex flex-col-reverse items-center justify-between lg:flex-row lg:gap-0 animate-move-up' >
                <div className='space-y-10 text-center lg:text-left'>
-                    <h1 className='text-4xl lg:text-7xl font-bold'>
-                         Nice to meet you! 👋<br /> <span className='underline underline-offset-8 decoration-green-500'>{"I'm Muhammed Zain."}</span>
+                    <h1 className='text-4xl lg:text-7xl font-bold mt-10 md:mt-0'>
+                         Nice to meet you! <span className='hidden md:inline-block'>👋</span><br /> <span className='underline underline-offset-8 decoration-green-500'>{"I'm Muhammed Zain."}</span>
                     </h1>
                     <p className='md:w-96 text-lg text-gray-300'>
                          {"Based in Bangalore, I'm a Fullstack developer passionate about building modern web applications that clients love."}
@@ -29,7 +29,7 @@ const HeroSection = () => {
 
                </div>
 
-               <div className='relative'>
+               <div className='relative hidden md:flex'>
                     <div className='w-72 h-72 space-y-3 -rotate-[30deg] relative'>
                          <div className='flex gap-3 translate-x-8'>
                               <div className='w-32 h-32 rounded-2xl bg-green-500'>
