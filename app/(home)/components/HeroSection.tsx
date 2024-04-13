@@ -22,7 +22,7 @@ const HeroSection = () => {
                               className="p-3 font-semibold group-hover:bg-[#0f172a]/15 transition-all duration-500 ease-in-out group-hover:backdrop-blur-lg"
                          >
                               <Link href={"https://drive.google.com/file/d/1yEiN4QOuIaMVxNkhKO_7GksyzBghr8sh/view"} target="_blank">
-                                   ⬇️ Download Resume
+                                   <h1 className='text-xl'>⬇️ Download Resume</h1>
                               </Link>
                          </MovingBorderBtn>
                     </div>
