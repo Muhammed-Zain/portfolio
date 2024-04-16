@@ -14,16 +14,16 @@ const HeroSection = () => {
                     <div className='text-4xl lg:text-7xl font-bold mt-10 md:mt-0'>
                          Nice to meet you! <span className='hidden md:inline-block'>👋</span><br /> <span className='underline underline-offset-8 decoration-[#914d76]'>{"I'm Muhammed Zain."}</span>
                     </div>
-                    <div className='md:w-[75%] font-bold md:text-3xl text-lg text-gray-600'>
+                    <div className='lg:w-[75%] font-bold md:text-3xl text-lg text-gray-600'>
                          <TextGenerateEffect words={textGenerateWord} />
                     </div>
-                    <div className='flex gap-5 flex-col md:flex-row items-center md:items-start'>
+                    <div className='flex gap-5 flex-col md:flex-row justify-center lg:justify-start items-center md:items-start'>
                          <Link href={"mailto:mohdzain2002@gmail.com"} target="_blank" className='inline-block group mb-12 md:mb-0'>
-                              <Title text='Contact Me! 📫' className='text-3xl' />
+                              <Title text='Contact Me! 📫' className='text-3xl flex flex-col sm:items-center md:items-start' />
                          </Link>
                          <MovingBorderBtn
                               borderRadius="1rem"
-                              className="p-3 font-semibold group-hover:bg-[#0f172a]/15 transition-all duration-500 ease-in-out group-hover:backdrop-blur-lg "
+                              className="p-3 font-semibold group-hover:bg-[#0f172a]/15 transition-all duration-500 ease-in-out group-hover:backdrop-blur-lg"
                          >
                               <Link href={"https://drive.google.com/file/d/1yEiN4QOuIaMVxNkhKO_7GksyzBghr8sh/view"} target="_blank">
                                    <h1 className='text-xl flex justify-center items-center gap-5 '>
