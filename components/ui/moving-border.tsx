@@ -32,7 +32,7 @@ export function MovingBorderBtn({
      return (
           <Component
                className={cn(
-                    "bg-transparent relative text-xl  p-[1px] overflow-hidden ",
+                    "bg-transparent relative text-xl  p-[1px] overflow-hidden md:w-[30%] w-[75%]",
                     containerClassName
                )}
                style={{
@@ -47,7 +47,7 @@ export function MovingBorderBtn({
                     <MovingBorder duration={duration} rx="30%" ry="30%">
                          <div
                               className={cn(
-                                   "h-20 w-20 opacity-[0.8] bg-[radial-gradient(var(--sky-500)_40%,transparent_60%)]",
+                                   "h-20 w-20 opacity-[0.8] bg-[radial-gradient(#f3ffbd_2%,transparent_60%)]",
                                    borderClassName
                               )}
                          />
@@ -56,7 +56,7 @@ export function MovingBorderBtn({
 
                <div
                     className={cn(
-                         "relative bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased",
+                         "relative bg-[#f3ffbd]/[0.3] border border-[#f3ffbd] backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased hover:bg-[#f3ffbd]/[0.8]",
                          className
                     )}
                     style={{
